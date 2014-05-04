@@ -11,8 +11,6 @@ define(function(require, exports, module) {
     var Matrix = require('./Matrix');
 
     /**
-     * Docs: TODO
-     *
      * @class Quaternion
      * @constructor
      *
@@ -298,7 +296,6 @@ define(function(require, exports, module) {
     Quaternion.prototype.dot = function dot(q) {
         return this.w * q.w + this.x * q.x + this.y * q.y + this.z * q.z;
     };
-
 
     /**
      * Doc: TODO
